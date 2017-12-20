@@ -13,3 +13,5 @@
 $app->get('/', 'RadacctController@get');
 
 $app->post('/', 'RadacctController@find');
+
+$app->post('/form', 'RadcheckController@submit');
